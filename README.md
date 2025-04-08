@@ -4,7 +4,7 @@ Python + Google cloud API + Groq cloud API, email handling project.
 ## Why?
 ### Initial purpose of this project: Short term rental email managagement.
 
-Since each short term rental platform has a different email format & structure, **_(and some don't even follow a defined format at all! [A local platform, where we get a significant portion of our guests from, handles each email by hand])_** making the parsing of important information much harder than it needs to be. 
+Since each short term rental platform has a different email format & structure, **_(and some don't even follow a defined format at all! [e.g.: A local platform, where we get a significant portion of our guests from, handles each email by hand with no predefined format])_** making the parsing of such information much harder than it needs to be. 
 
 ### Main goals:
 - Streamlining and automating vacation rental email management; 
@@ -106,3 +106,5 @@ The application requests the following OAuth scopes:
 - Ensure that you have the correct permissions set up in the Google Cloud Console.
 - Check that `credentials.json` is present in the project directory.
 - If you encounter errors regarding token expiration, delete `token.json` and re-authenticate.
+
+(Dropped project due to lack of hardware to run a local model / privacy concerns using a cloud model & inefficiency, latency and lower than expected quality in parsing)
